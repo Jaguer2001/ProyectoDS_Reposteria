@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoDS_Reposteria"
         mc:Ignorable="d"
-        Title="MainWindow" Height="428" Width="549">
+        Title="Login" Height="428" Width="549">
     <Grid>
         <Image HorizontalAlignment="Center" Height="194" VerticalAlignment="Top" Width="192" Source="/75a60f7a-8950-4f5e-9f60-37c02968cpng4d6.png" RenderTransformOrigin="0.496,0.518"/>
         <TextBox HorizontalAlignment="Center" Margin="0,206,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="29"/>
         <TextBox HorizontalAlignment="Center" Margin="0,284,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="29"/>
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="67,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.333,-0.129" FontSize="20"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="67,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.333,-0.129" FontSize="20"/>
 
     </Grid>
 </Window>

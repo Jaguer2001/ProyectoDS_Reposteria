@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace ProyectoDS_Reposteria
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Login.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
