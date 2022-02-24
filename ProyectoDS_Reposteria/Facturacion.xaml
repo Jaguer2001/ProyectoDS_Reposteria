@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProyectoDS_Reposteria.Facturacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoDS_Reposteria"
+        mc:Ignorable="d"
+        Title="Facturacion" Height="479" Width="813">
+    <Grid>
+        <Button Content="Añadir Compra" HorizontalAlignment="Left" Margin="44,320,0,0" VerticalAlignment="Top" Height="84" Width="204" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Buscar Compra" HorizontalAlignment="Left" Margin="528,320,0,0" VerticalAlignment="Top" Height="84" Width="204" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="200" Margin="0,40,0,0" VerticalAlignment="Top" Width="200" Source="/logo2.png" Stretch="UniformToFill"/>
+        <Button Content="Salir" Margin="728,423,10,10" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

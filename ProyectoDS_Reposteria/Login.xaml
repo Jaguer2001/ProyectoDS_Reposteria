@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="Login" Height="464" Width="430">
     <Grid>
-        <Image HorizontalAlignment="Center" Height="194" VerticalAlignment="Top" Width="192" Source="/75a60f7a-8950-4f5e-9f60-37c02968cpng4d6.png" RenderTransformOrigin="0.496,0.518"/>
         <TextBox HorizontalAlignment="Center" Margin="0,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="29"/>
         <TextBox HorizontalAlignment="Center" Margin="0,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Height="29"/>
         <Label Content="Usuario" HorizontalAlignment="Left" Margin="43,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.333,-0.129" FontSize="20"/>
         <Label Content="Contraseña" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.333,-0.129" FontSize="20"/>
+        <Image HorizontalAlignment="Center" Height="150" VerticalAlignment="Top" Width="150" Source="/logo2.png" RenderTransformOrigin="0.496,0.518" Margin="0,24,0,0" Stretch="UniformToFill" StretchDirection="Both"/>
+        <Image HorizontalAlignment="Center" Height="150" Margin="0,30,0,0" VerticalAlignment="Top" Width="150" Source="/logo2.png" Stretch="UniformToFill"/>
+        <Button Content="Ingresar" HorizontalAlignment="Center" Margin="0,386,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
 
     </Grid>
 </Window>
